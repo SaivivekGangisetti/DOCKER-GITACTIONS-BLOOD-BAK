@@ -25,7 +25,7 @@ services:
 
   frontend:
     image: saivivekgangisetti/docker-gitactions-frontend:latest
-    container_name: react
+    container_name: react1
     ports:
       - "3000:80"
     depends_on:
