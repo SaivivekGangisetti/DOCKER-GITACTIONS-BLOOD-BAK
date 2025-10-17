@@ -1,7 +1,7 @@
 services:
   mysqldb:
     image: mysql:8
-    container_name: mysql-db
+    container_name: mysql-db1
     environment:
       MYSQL_ROOT_PASSWORD: saivivek
       MYSQL_DATABASE: donation
