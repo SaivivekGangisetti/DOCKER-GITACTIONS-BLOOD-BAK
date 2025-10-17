@@ -14,7 +14,7 @@ services:
 
   backend:
     image: saivivekgangisetti/docker-gitactions-backend:latest
-    container_name: springboot
+    container_name: springboot1
     ports:
       - "2025:2095"
     depends_on:
